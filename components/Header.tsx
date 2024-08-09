@@ -26,22 +26,20 @@ const Header = () => {
             {isMenuOpen ? (
               <>
                 <CloseIcon className="h-5 w-5 md:hidden" onClick={toggleMenu} />
-                <p className="">closed</p>
               </>
             ) : (
               <>
-                <MenuIcon className="h-5 w-5 md:hidden" onClick={toggleMenu} />
-                <p className="">menu</p>
+                <MenuIcon className="h-6 w-6 md:hidden" onClick={toggleMenu} />
               </>
             )}
-            <nav className="hidden md:flex gap-6 text-black/60 items-center">
+            <nav className="hidden md:flex gap-6 text-black/70 items-center">
               <a href="#">About</a>
               <a href="#">Projects</a>
               <a href="#">Resume</a>
               {/* <a href="#">Other</a> */}
               {/* <a href="#">Other</a> */}
               <a href="#">
-                <button className="bg-black text-white px-4 py-2 rounded-lg font-medium inline-flex align-items justify-center tracking-tight">
+                <button className="bg-[#004225] text-white px-4 py-2 rounded-lg font-medium inline-flex align-items justify-center tracking-tight">
                   Lets Connect
                 </button>
               </a>

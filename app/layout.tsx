@@ -1,9 +1,12 @@
 import type { Metadata } from "next";
-import { DM_Sans } from "next/font/google";
+import { Poppins } from "next/font/google";
 import "./globals.css";
 import { twMerge } from "tailwind-merge";
 
-const dmSans = DM_Sans({ subsets: ["latin"] });
+const poppins = Poppins({
+  subsets: ['latin'],
+  weight: ['300','400','500', '600', '700','800',], // specify the weights you want to include
+})
 
 export const metadata: Metadata = {
   title: "CV Portfolio",
@@ -17,7 +20,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className="relative">
-     <body className={twMerge(dmSans.className, "antialiased bg-[#EAEEFE]")}>
+     <body className={twMerge(poppins.className, "antialiased bg-[#F9F9F9]")}>
         {children}
       </body>
     </html>

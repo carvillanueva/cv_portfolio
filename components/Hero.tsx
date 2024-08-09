@@ -1,9 +1,42 @@
+import Image from "next/image";
 import React from "react";
 
 const Hero = () => {
   return (
-    <section className="container">
-      <h2>Welcome</h2>
+    <section className="container mt-10 ">
+      <div className="flex flex-col items-center">
+        <div className="flex flex-col items-center">
+          <Image
+            src="/assets/profilepic.png"
+            width={120}
+            height={120}
+            alt="Profile Picture"
+            className="border rounded-full bg-[#004225]"
+          />
+          <h3 className="font-medium text-2xl mt-5 tracking-tight">
+            Hi, I&apos;m Carlos 👋
+          </h3>
+        </div>
+        <div className="mt-8 text-3xl font-semibold tracking-tight md:text-6xl text-center max-w-[700px]">
+          <p className="md:leading-[1.10]">
+            building cool small projects and learning new technologies in software
+            development.
+          </p>
+        </div>
+        <div className="mt-8 text-center text-lg ">
+          a <span className="font-semibold">Full-Stack Software Engineer</span>{" "}
+          in <span className="font-semibold">Washington, D.C.</span> working for{" "}
+          <span className="font-semibold">Capital One</span>.<br></br>I
+          specialize in building web applications and websites.
+        </div>
+        <div className="mt-12">
+          <a href="#">
+            <button className="bg-[#004225] text-white p-5 rounded-full text-sm font-normal inline-flex align-items justify-center tracking-tight uppercase">
+              Connect with me
+            </button>
+          </a>
+        </div>
+      </div>
     </section>
   );
 };
