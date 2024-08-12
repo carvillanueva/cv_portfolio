@@ -27,7 +27,7 @@ const Hero = () => {
           a <span className="font-semibold">Full-Stack Software Engineer</span>{" "}
           in <span className="font-semibold">Washington, D.C.</span> working for{" "}
           <span className="font-semibold">Capital One</span>.<br></br>I
-          specialize in building web applications and websites.
+          like building web applications and websites.
         </div>
         <div className="mt-12">
           <a href="#projects">

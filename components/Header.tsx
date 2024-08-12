@@ -29,18 +29,16 @@ const Header = () => {
             </div>
             <div className="">
               <nav className="flex flex-col gap-6 text-black/70 text-lg font-medium items-center mt-5 ">
-                <a href="#about" className="hover:underline">
+                <a href="#about" className="hover:underline" onClick={toggleMenu}>
                   About
                 </a>
-                <a href="#projects" className="hover:underline">
+                <a href="#projects" className="hover:underline" onClick={toggleMenu}>
                   Projects
                 </a>
-                <a href="#resume" className="hover:underline">
+                <a href="#resume" className="hover:underline" onClick={toggleMenu}>
                   Resume
                 </a>
-                {/* <a href="#">Other</a> */}
-                {/* <a href="#">Other</a> */}
-                <a href="#">
+                <a href="#" onClick={toggleMenu}>
                   <button className="bg-[#004225] text-white px-4 py-2 rounded-lg font-medium inline-flex align-items justify-center tracking-tight">
                     Lets Connect
                   </button>
