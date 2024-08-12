@@ -32,7 +32,7 @@ const Hero = () => {
         <div className="mt-12">
           <a href="#">
             <button className="bg-[#004225] text-white p-5 rounded-full text-sm font-normal inline-flex align-items justify-center tracking-tight uppercase">
-              Connect with me
+              Latest Projects
             </button>
           </a>
         </div>
