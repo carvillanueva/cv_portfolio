@@ -3,7 +3,7 @@ import React from "react";
 
 const Hero = () => {
   return (
-    <section className="container mt-10 ">
+    <section className="container mt-10 pb-5">
       <div className="flex flex-col items-center">
         <div className="flex flex-col items-center">
           <Image
@@ -30,7 +30,7 @@ const Hero = () => {
           specialize in building web applications and websites.
         </div>
         <div className="mt-12">
-          <a href="#">
+          <a href="#projects">
             <button className="bg-[#004225] text-white p-5 rounded-full text-sm font-normal inline-flex align-items justify-center tracking-tight uppercase">
               Latest Projects
             </button>

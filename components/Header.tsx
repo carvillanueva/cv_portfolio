@@ -14,7 +14,7 @@ const Header = () => {
   };
 
   return (
-    <header className="sticky top-0 backdrop-blur-sm z-20">
+    <header className="sticky top-0 backdrop-blur-md z-20">
       <div className="flex justify-center items-center py-3 bg-black text-white text-sm gap-3">
         <p className="text-white/100 hidden md:block">✨ Hi there! </p>
         <div className="inline-flex gap-1 items-center">
@@ -29,13 +29,13 @@ const Header = () => {
             </div>
             <div className="">
               <nav className="flex flex-col gap-6 text-black/70 text-lg font-medium items-center mt-5 ">
-                <a href="#" className="hover:underline">
+                <a href="#about" className="hover:underline">
                   About
                 </a>
-                <a href="#" className="hover:underline">
+                <a href="#projects" className="hover:underline">
                   Projects
                 </a>
-                <a href="#" className="hover:underline">
+                <a href="#resume" className="hover:underline">
                   Resume
                 </a>
                 {/* <a href="#">Other</a> */}
@@ -64,10 +64,10 @@ const Header = () => {
               </div>
               <MenuIcon className="h-7 w-7 md:hidden" onClick={toggleMenu} />
               <nav className="hidden md:flex gap-6 text-black/70 items-center">
-                <a href="#">About</a>
-                <a href="#">Projects</a>
-                <a href="#">Resume</a>
-                <a href="#">
+                <a href="#about">About</a>
+                <a href="#projects">Projects</a>
+                <a href="#resume">Resume</a>
+                <a href="#resume">
                   <button className="bg-[#004225] text-white px-4 py-2 rounded-lg font-medium inline-flex align-items justify-center tracking-tight">
                     Lets Connect
                   </button>
