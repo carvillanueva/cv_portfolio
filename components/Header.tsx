@@ -4,6 +4,7 @@ import { useState } from "react";
 import MenuIcon from "@/public/assets/menu.svg";
 import CloseIcon from "@/public/assets/close.svg";
 import SocialLinkedIn from "@/public/assets/social-linkedin.svg";
+import SocialGithub from "@/public/assets/social-github.svg";
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -27,10 +28,16 @@ const Header = () => {
               <CloseIcon className="h-5 w-5 md:hidden" onClick={toggleMenu} />
             </div>
             <div className="">
-              <nav className="flex flex-col gap-6 text-black/70 items-center mt-5 ">
-                <a href="#" className="hover:underline">About</a>
-                <a href="#" className="hover:underline">Projects</a>
-                <a href="#" className="hover:underline">Resume</a>
+              <nav className="flex flex-col gap-6 text-black/70 text-lg font-medium items-center mt-5 ">
+                <a href="#" className="hover:underline">
+                  About
+                </a>
+                <a href="#" className="hover:underline">
+                  Projects
+                </a>
+                <a href="#" className="hover:underline">
+                  Resume
+                </a>
                 {/* <a href="#">Other</a> */}
                 {/* <a href="#">Other</a> */}
                 <a href="#">
@@ -46,15 +53,20 @@ const Header = () => {
         <section className="py-5">
           <div className="container">
             {/* <div className="flex items-center justify-between"> */}
-            <div className="flex items-center justify-end">
-              {/* <SocialLinkedIn className="h-7 w-7"/> */}
-              <MenuIcon className="h-6 w-6 md:hidden" onClick={toggleMenu} />
+            <div className="flex items-center justify-between">
+              <div className="flex gap-2">
+                <a href="https://www.linkedin.com/in/carlosivillanueva/" target="_blank" className="">
+                  <SocialLinkedIn />
+                </a>
+                <a href="https://github.com/carvillanueva" target="_blank" className="">
+                  <SocialGithub />
+                </a>
+              </div>
+              <MenuIcon className="h-7 w-7 md:hidden" onClick={toggleMenu} />
               <nav className="hidden md:flex gap-6 text-black/70 items-center">
                 <a href="#">About</a>
                 <a href="#">Projects</a>
                 <a href="#">Resume</a>
-                {/* <a href="#">Other</a> */}
-                {/* <a href="#">Other</a> */}
                 <a href="#">
                   <button className="bg-[#004225] text-white px-4 py-2 rounded-lg font-medium inline-flex align-items justify-center tracking-tight">
                     Lets Connect
