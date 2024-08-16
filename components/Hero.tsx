@@ -11,7 +11,7 @@ const Hero = () => {
             width={120}
             height={120}
             alt="Profile Picture"
-            className="border rounded-full bg-[#004225]"
+            className="border rounded-full bg-[#004225] hover:bg-[#005630]"
           />
           <h3 className="font-medium text-2xl mt-5 tracking-tight">
             Hi, I&apos;m Carlos 👋
@@ -31,7 +31,7 @@ const Hero = () => {
         </div>
         <div className="mt-12">
           <a href="#projects">
-            <button className="bg-[#004225] text-white p-5 rounded-full text-sm font-normal inline-flex align-items justify-center tracking-tight uppercase">
+            <button className="bg-[#004225] hover:bg-[#005630] text-white p-5 rounded-full text-sm font-normal inline-flex align-items justify-center tracking-tight uppercase">
               Latest Projects
             </button>
           </a>

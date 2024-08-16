@@ -2,11 +2,12 @@ import type { Metadata } from "next";
 import { Poppins } from "next/font/google";
 import "./globals.css";
 import { twMerge } from "tailwind-merge";
+import { Toaster } from "@/components/ui/toaster";
 
 const poppins = Poppins({
-  subsets: ['latin'],
-  weight: ['300','400','500', '600', '700','800',], // specify the weights you want to include
-})
+  subsets: ["latin"],
+  weight: ["300", "400", "500", "600", "700", "800"], // specify the weights you want to include
+});
 
 export const metadata: Metadata = {
   title: "CV Portfolio",
@@ -20,8 +21,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className="relative">
-     <body className={twMerge(poppins.className, "antialiased bg-[#F9F9F9]")}>
+      <body className={twMerge(poppins.className, "antialiased bg-[#F9F9F9]")}>
         {children}
+        <Toaster />
       </body>
     </html>
   );

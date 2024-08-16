@@ -5,9 +5,31 @@ import MenuIcon from "@/public/assets/menu.svg";
 import CloseIcon from "@/public/assets/close.svg";
 import SocialLinkedIn from "@/public/assets/social-linkedin.svg";
 import SocialGithub from "@/public/assets/social-github.svg";
+import { useToast } from "./ui/use-toast";
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
+  const [copied, setCopied] = useState(false);
+  const email = "carlos.villanueva@gmail.com";
+
+  const { toast } = useToast();
+
+  const handleClick = () => {
+    toast({
+      variant: "british",
+      title: "Hi! Send me an email!📬",
+      description:
+        "Thanks for wanting to connnect. My email has been copied to your clipboard! 📋",
+    });
+    clip();
+  };
+
+  function clip() {
+    navigator.clipboard.writeText(email).then(() => {
+      setCopied(true);
+      setTimeout(() => setCopied(false), 2000);
+    });
+  }
 
   const toggleMenu = () => {
     setIsMenuOpen(!isMenuOpen);
@@ -29,20 +51,33 @@ const Header = () => {
             </div>
             <div className="">
               <nav className="flex flex-col gap-6 text-black/70 text-lg font-medium items-center mt-5 ">
-                <a href="#about" className="hover:underline" onClick={toggleMenu}>
+                <a
+                  href="#about"
+                  className="hover:underline"
+                  onClick={toggleMenu}
+                >
                   About
                 </a>
-                <a href="#projects" className="hover:underline" onClick={toggleMenu}>
+                <a
+                  href="#projects"
+                  className="hover:underline"
+                  onClick={toggleMenu}
+                >
                   Projects
                 </a>
-                <a href="#resume" className="hover:underline" onClick={toggleMenu}>
+                <a
+                  href="#resume"
+                  className="hover:underline"
+                  onClick={toggleMenu}
+                >
                   Resume
                 </a>
-                <a href="#" onClick={toggleMenu}>
-                  <button className="bg-[#004225] text-white px-4 py-2 rounded-lg font-medium inline-flex align-items justify-center tracking-tight">
-                    Lets Connect
-                  </button>
-                </a>
+                <button
+                  className="bg-[#004225] hover:bg-[#005630] text-white px-4 py-2 rounded-lg font-medium inline-flex align-items justify-center tracking-tight"
+                  onClick={handleClick}
+                >
+                  Lets Connect
+                </button>
               </nav>
             </div>
           </div>
@@ -53,10 +88,18 @@ const Header = () => {
             {/* <div className="flex items-center justify-between"> */}
             <div className="flex items-center justify-between">
               <div className="flex gap-2">
-                <a href="https://www.linkedin.com/in/carlosivillanueva/" target="_blank" className="">
+                <a
+                  href="https://www.linkedin.com/in/carlosivillanueva/"
+                  target="_blank"
+                  className=""
+                >
                   <SocialLinkedIn />
                 </a>
-                <a href="https://github.com/carvillanueva" target="_blank" className="">
+                <a
+                  href="https://github.com/carvillanueva"
+                  target="_blank"
+                  className=""
+                >
                   <SocialGithub />
                 </a>
               </div>
@@ -65,11 +108,12 @@ const Header = () => {
                 <a href="#about">About</a>
                 <a href="#projects">Projects</a>
                 <a href="#resume">Resume</a>
-                <a href="#resume">
-                  <button className="bg-[#004225] text-white px-4 py-2 rounded-lg font-medium inline-flex align-items justify-center tracking-tight">
-                    Lets Connect
-                  </button>
-                </a>
+                <button
+                  className="bg-[#004225] hover:bg-[#005630] text-white px-4 py-2 rounded-lg font-medium inline-flex align-items justify-center tracking-tight"
+                  onClick={handleClick}
+                >
+                  Let&apos;s Connect
+                </button>
               </nav>
             </div>
           </div>
