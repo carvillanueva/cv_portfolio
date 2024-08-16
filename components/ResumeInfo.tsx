@@ -4,7 +4,7 @@ import SchoolIcon from "@/public/assets/school.svg";
 
 const About = () => {
   return (
-    <section className="container mt-10" id="about">
+    <section className="md:mt-5">
       {/* <p className="text-3xl md:text-4xl font-semibold">About...</p> */}
       {/* <section className="flex justify-center mt-10"> */}
       {/* <div className="text-white bg-[#004225]/60 w-[650px] m-3 p-7 rounded-lg">
