@@ -1,5 +1,6 @@
 import React from "react";
 import { projects } from "@/data/projects";
+import ProjectCard from "./ui/project-card";
 
 const Projects = () => {
   return (
@@ -7,8 +8,16 @@ const Projects = () => {
       <div className="">
         <p className="text-3xl md:text-4xl font-semibold">Projects</p>
       </div>
-      <div className="">
-
+      <div className="flex flex-wrap justify-center">
+        {projects.map((project, index) => (
+          <ProjectCard
+            key={index}
+            title={project.title}
+            description={project.description}
+            projectImg={project.projectImg}
+            ghURL={project.ghURL}
+          />
+        ))}
       </div>
     </section>
   );

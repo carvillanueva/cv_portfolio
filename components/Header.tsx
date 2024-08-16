@@ -10,7 +10,7 @@ import { useToast } from "./ui/use-toast";
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [copied, setCopied] = useState(false);
-  const email = "carlos.villanueva@gmail.com";
+  const email = "carlos2villanueva@gmail.com";
 
   const { toast } = useToast();
 
@@ -76,7 +76,7 @@ const Header = () => {
                   className="bg-[#004225] hover:bg-[#005630] text-white px-4 py-2 rounded-lg font-medium inline-flex align-items justify-center tracking-tight"
                   onClick={handleClick}
                 >
-                  Lets Connect
+                  Let&apos;s Connect
                 </button>
               </nav>
             </div>
@@ -85,7 +85,6 @@ const Header = () => {
       ) : (
         <section className="py-5">
           <div className="container">
-            {/* <div className="flex items-center justify-between"> */}
             <div className="flex items-center justify-between">
               <div className="flex gap-2">
                 <a
