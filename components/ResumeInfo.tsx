@@ -79,7 +79,7 @@ const About = () => {
               <ol className="relative border-s border-gray-200 mx-3">
                 <li className="mb-10 ms-6">
                   <span className="absolute flex items-center justify-center w-6 h-6 bg-[#004225] rounded-full -start-3 ring-8 ring-white">
-                    <SchoolIcon className="w-4 h-4 text-white" />
+                    <SchoolIcon className="w-3.5 h-3.5 text-white" />
                   </span>
                   <h3 className="flex items-center text-xl font-semibold text-gray-900">
                     Mississippi State University{" "}

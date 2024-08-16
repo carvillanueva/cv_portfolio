@@ -4,8 +4,9 @@ import About from "./ResumeInfo";
 
 const Resume = () => {
   return (
-    <section className="container pt-[120px] pb-10" id="resume">
+    <section className="container pt-[130px] pb-10" id="resume">
       <p className="text-3xl md:text-4xl font-semibold mb-3">Resume</p>
+
       <About />
       <div className="max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow">
         <DocumentIcon />
