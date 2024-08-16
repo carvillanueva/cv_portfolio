@@ -4,7 +4,7 @@ import React from "react";
 const ProjectCard = ({title, description, projectImg, ghURL}: {title:string, description:string, projectImg: string, ghURL?: string }) => {
   return (
     <section className="">
-      <div className="m-3">
+      <div className="">
         <div
           className="flex flex-col md:items-center p-3 bg-white border border-gray-200 rounded-lg shadow md:flex-row md:max-w-xl hover:bg-gray-100 "
         >
