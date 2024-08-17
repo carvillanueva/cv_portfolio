@@ -6,7 +6,7 @@ const Projects = () => {
   return (
     <section className="container pt-[130px] pb-10" id="projects">
       <p className="text-3xl md:text-4xl font-semibold mb-3">Projects</p>
-      <div className="flex flex-wrap justify-center gap-6 mt-5">
+      <div className="flex flex-wrap justify-center gap-6 mt-6 overflow-x-hidden max-w-full">
         {projects.map((project, index) => (
           <ProjectCard
             key={index}
