@@ -25,7 +25,7 @@ export const projects = [
   },
   {
     title: "Mock Animation Site",
-    description: "Experimenting with Aceternity UI w/ mock website - deployed on vercel",
+    description: "Experimenting with Aceternity UI framework to create a mock website. Deployed on Vercel to test new deployment style.",
     projectURL: "https://animation-site-alpha.vercel.app/",
     ghURL: "https://github.com/carvillanueva/animationSite",
     projectTech: ["NextJs", "Tailwind", "Aceternity UI", "Vercel", "Framer Motion"],
@@ -33,7 +33,7 @@ export const projects = [
   },
   {
     title: "Mock SaaS Site",
-    description: "experimenting with next.js + framer + vercel",
+    description: "Experimenting with Framer Motion UI styles to create mock SaaS website. Deployed on Vercel to test new deployment style.",
     projectURL: "https://website-pi-wheat.vercel.app/",
     ghURL: "https://github.com/carvillanueva/randomSite",
     projectTech: ["NextJs", "Tailwind", "Shadcn", "Vercel", "Framer Motion"],
