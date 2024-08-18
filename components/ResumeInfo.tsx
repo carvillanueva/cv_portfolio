@@ -40,15 +40,14 @@ const About = () => {
                 <time className="block mb-2 text-sm font-normal leading-none text-gray-500">
                   August 2023 - Present
                 </time>
-                <p className="mb-4 text-base font-normal text-gray-500">
-                  Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                  Facilis expedita eveniet, iste, quaerat quam quasi repellendus
-                  enim odit voluptate veniam accusamus numquam quisquam.
-                  Exercitationem eos vitae fugit iure quae repudiandae ad nemo
-                  cum hic? Alias saepe, molestias aperiam deserunt itaque
-                  debitis ratione vero dignissimos iure facilis, quidem eaque
-                  nesciunt laborum!
-                </p>
+                <div className="mb-4 text-base font-normal text-gray-500">
+                  <ol>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                  </ol>
+                </div>
               </li>
               <li className="ms-6">
                 <span className="absolute flex items-center justify-center w-6 h-6 bg-[#004225] rounded-full -start-3 ring-8 ring-white">
@@ -61,15 +60,14 @@ const About = () => {
                 <time className="block mb-2 text-sm font-normal leading-none text-gray-500">
                   August 2021 - August 2023
                 </time>
-                <p className="mb-4 text-base font-normal text-gray-500">
-                  Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                  Facilis expedita eveniet, iste, quaerat quam quasi repellendus
-                  enim odit voluptate veniam accusamus numquam quisquam.
-                  Exercitationem eos vitae fugit iure quae repudiandae ad nemo
-                  cum hic? Alias saepe, molestias aperiam deserunt itaque
-                  debitis ratione vero dignissimos iure facilis, quidem eaque
-                  nesciunt laborum!
-                </p>
+                <div className="mb-4 text-base font-normal text-gray-500">
+                  <ol>
+                    <li>Proficient in front-end JavaScript frameworks such as Angular, as well as code versioning technologies like Git and REST API design principles.</li>
+                    <li>Experience designing, developing, testing, and maintaining application code to meet business requirements using technologies including HTML, CSS, JavaScript, Angular, .NET Core, C#, Azure, SQL, and CosmosDB.</li>
+                    <li>Strong ability to analyse and resolve technical and application problems, as well as research and adapt to new languages, methodologies, and platforms as needed.</li>
+                    <li>Demonstrated understanding of software development principles and ability to adhere to high- quality development practices while delivering solutions promptly.</li>
+                  </ol>
+                </div>
               </li>
             </ol>
           </div>
@@ -88,15 +86,15 @@ const About = () => {
                   <time className="block mb-2 text-sm font-normal leading-none text-gray-500">
                     August 2020
                   </time>
-                  <p className="mb-4 text-base font-normal text-gray-500">
-                    Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                    Facilis expedita eveniet, iste, quaerat quam quasi
-                    repellendus enim odit voluptate veniam accusamus numquam
-                    quisquam. Exercitationem eos vitae fugit iure quae
-                    repudiandae ad nemo cum hic? Alias saepe, molestias aperiam
-                    deserunt itaque debitis ratione vero dignissimos iure
-                    facilis, quidem eaque nesciunt laborum!
-                  </p>
+                  {/* <div className="mb-4 text-base font-normal text-gray-500">
+                    <ol>
+                      <li></li>
+                      <li></li>
+                      <li></li>
+                      <li></li>
+                      <li></li>
+                    </ol>
+                  </div> */}
                 </li>
               </ol>
             </div>
