@@ -2,6 +2,7 @@ import Image from "next/image";
 import React from "react";
 import { Badge } from "./badge";
 import Github from "@/public/assets/social-github.svg";
+import Website from "@/public/assets/website.svg";
 
 const ProjectCard = ({
   title,
@@ -35,16 +36,18 @@ const ProjectCard = ({
             </h5>
             <p className="font-normal text-gray-700">{description}</p>
           </div>
-          <div className="flex pl-4 pb-2">
+          <div className="flex pl-4 pb-2 gap-1">
             <a href={ghURL} target="_blank">
               <Github className="h-6 w-6" />
             </a>
-            <Github className="h-6 w-6" />
+            <a href={projectURL} target="_blank">
+              <Website className="h-6 w-6" />
+            </a>
           </div>
           <div className="flex flex-wrap p-1 gap-2">
             {projectTech.map((tech, index) => (
               <div key={index} className="">
-                <Badge key={index} variant="outline" className="p-2">
+                <Badge key={index} variant="outline" className="p-2 bg-[#004225]/60 text-white hover:bg-[#004225]/70">
                   {tech}
                 </Badge>
               </div>
