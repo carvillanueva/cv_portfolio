@@ -38,9 +38,9 @@ const Header = () => {
   return (
     <header className="sticky top-0 backdrop-blur-md z-20">
       <div className="flex justify-center items-center py-3 bg-black text-white text-sm gap-3">
-        <p className="text-white/100 hidden md:block">✨ Hi there! </p>
+        <p className="text-white/100 hidden md:block"> Hi there!👋</p>
         <div className="inline-flex gap-1 items-center">
-          <p>✨ Thanks for visiting my website! ✨</p>
+          <p> Thanks for visiting my website! 👍</p>
         </div>
       </div>
       {isMenuOpen ? (
