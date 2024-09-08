@@ -20,7 +20,7 @@ const Hero = () => {
         <div className="mt-8 text-3xl font-semibold tracking-tight md:text-6xl text-center max-w-[700px]">
           <p className="md:leading-[1.10]">
             building cool small projects and learning new technologies in software
-            development.
+            development
           </p>
         </div>
         <div className="mt-8 text-center text-lg ">
