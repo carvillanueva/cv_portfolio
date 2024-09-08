@@ -72,6 +72,9 @@ const Header = () => {
                 >
                   Resume
                 </a>
+                <a className="text-slate-400">
+                  Blog <span className="text-sm">(Coming Soon)</span>
+                </a>
                 <button
                   className="bg-[#004225] hover:bg-[#005630] text-white px-4 py-2 rounded-lg font-medium inline-flex align-items justify-center tracking-tight"
                   onClick={handleClick}
@@ -103,10 +106,19 @@ const Header = () => {
                 </a>
               </div>
               <MenuIcon className="h-7 w-7 md:hidden" onClick={toggleMenu} />
-              <nav className="hidden md:flex gap-6 text-black/70 items-center">
-                <a href="#about">About</a>
-                <a href="#projects">Projects</a>
-                <a href="#resume">Resume</a>
+              <nav className="hidden md:flex gap-6 text-black/70 items-center font-medium">
+                <a href="#about" className="hover:underline">
+                  About
+                </a>
+                <a href="#projects" className="hover:underline">
+                  Projects
+                </a>
+                <a href="#resume" className="hover:underline">
+                  Resume
+                </a>
+                <a className="text-slate-400">
+                  Blog <span className="text-sm">(Coming Soon)</span>
+                </a>
                 <button
                   className="bg-[#004225] hover:bg-[#005630] text-white px-4 py-2 rounded-lg font-medium inline-flex align-items justify-center tracking-tight"
                   onClick={handleClick}
