@@ -24,7 +24,7 @@ const Hero = () => {
           </p>
         </div>
         <div className="mt-8 text-center text-lg ">
-          a <span className="font-semibold">Full-Stack Software Engineer</span>{" "}
+          a <span className="font-semibold">Full-Stack Software Engineer</span> <span className="text-sm font-base">(backend + frontend)</span>{" "}
           in <span className="font-semibold">Washington, D.C.</span> working for{" "}
           <span className="font-semibold">Capital One</span>.
           <br></br>

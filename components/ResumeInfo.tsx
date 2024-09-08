@@ -1,6 +1,8 @@
 import React from "react";
-import BriefcaseIcon from "@/public/assets/briefcase.svg";
 import SchoolIcon from "@/public/assets/school.svg";
+import CapitalOneIcon from "@/public/assets/captial-one-logo.svg";
+import AFOIcon from "@/public/assets/afo-logo.png";
+import Image from "next/image";
 
 const About = () => {
   return (
@@ -10,9 +12,9 @@ const About = () => {
           <div className="mt-5">
             <p className="text-2xl mb-3 underline font-semibold">Experience</p>
             <ol className="relative border-s border-gray-200 mx-3">
-              <li className="mb-10 ms-6">
-                <span className="absolute flex items-center justify-center w-6 h-6 bg-[#004225] rounded-full -start-3 ring-8 ring-white">
-                  <BriefcaseIcon className="w-2.5 h-2.5 text-white" />
+              <li className="mb-10 ms-7">
+                <span className="absolute flex items-center justify-center w-7 h-7 bg-white rounded-full -start-3 ring-4 ring-[#004225]">
+                  <CapitalOneIcon className="w-10 rounded-full bg-white" />
                 </span>
                 <h3 className="flex items-center text-xl font-semibold text-gray-900">
                   Capital One{" "}
@@ -26,16 +28,34 @@ const About = () => {
                 </time>
                 <div className="mb-4 pl-3 md:pl-8 text-base font-normal text-gray-500">
                   <ol className="list-disc">
-                    <li>Utilize programming languages like JS/TS, Java, Python, and AWS to maintain several client facing applications</li>
-                    <li>Solved complex technical issues related to scalability, performance, and security in large-scale applications</li>
-                    <li>Collaborate with and across Agile teams to design, develop, test, implement, and support technical solutions in full-stack development tools and technologies</li>
-                    <li>Cross collaborated with others to create technical events to share development knowledge to other associates</li>
+                    <li>
+                      Utilize programming languages like JS/TS, Java, Python,
+                      and AWS to maintain several client facing applications
+                    </li>
+                    <li>
+                      Solved complex technical issues related to scalability,
+                      performance, and security in large-scale applications
+                    </li>
+                    <li>
+                      Collaborate with and across Agile teams to design,
+                      develop, test, implement, and support technical solutions
+                      in full-stack development tools and technologies
+                    </li>
+                    <li>
+                      Cross collaborated with others to create technical events
+                      to share development knowledge to other associates
+                    </li>
                   </ol>
                 </div>
               </li>
-              <li className="ms-6">
-                <span className="absolute flex items-center justify-center w-6 h-6 bg-[#004225] rounded-full -start-3 ring-8 ring-white">
-                  <BriefcaseIcon className="w-2.5 h-2.5 text-white" />
+              <li className="ms-7">
+                <span className="absolute flex items-center justify-center w-7 h-7 bg-white rounded-full -start-3 ring-4 ring-[#004225]">
+                  <Image
+                    src={AFOIcon}
+                    alt="Arlignton Family Office"
+                    width={40}
+                    height={40}
+                  />
                 </span>
                 <h3 className="text-xl font-semibold text-gray-900">
                   Arlignton Family Office
