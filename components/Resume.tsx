@@ -5,7 +5,7 @@ import About from "./ResumeInfo";
 const Resume = () => {
   return (
     <section className="container pt-[130px] pb-20" id="resume">
-      <p className="text-3xl md:text-4xl font-semibold mb-3">Resume</p>
+      <p className="xl:mx-20 text-3xl md:text-4xl font-semibold mb-3">Resume</p>
       <About />
       <div className="flex justify-center mt-5">
         <div className="max-w-xl p-6 border border-gray-200 rounded-lg shadow">
