@@ -3,6 +3,8 @@ import { Poppins } from "next/font/google";
 import "./globals.css";
 import { twMerge } from "tailwind-merge";
 import { Toaster } from "@/components/ui/toaster";
+// vercel analytics
+import { Analytics } from "@vercel/analytics/react"
 
 const poppins = Poppins({
   subsets: ["latin"],
@@ -23,6 +25,7 @@ export default function RootLayout({
     <html lang="en" className="relative">
       <body className={twMerge(poppins.className, "antialiased bg-[#F9F9F9]")}>
         {children}
+        <Analytics />
         <Toaster />
       </body>
     </html>
