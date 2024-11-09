@@ -22,9 +22,12 @@ const About = () => {
                     Current
                   </span>
                 </h3>
-                <p className="mb-1">Associate Software Engineer</p>
+                <p className="mb-1">💻 Associate Software Engineer</p>
+                <div className="block mb-2 text-sm font-normal leading-none">
+                  📍 Washington, D.C.
+                </div>
                 <time className="block mb-2 text-sm font-normal leading-none text-gray-500">
-                  August 2023 - Present
+                  🕛 August 2023 - Present
                 </time>
                 <div className="mb-4 pl-3 md:pl-8 text-base font-normal text-gray-500">
                   <ol className="list-disc">
@@ -60,9 +63,12 @@ const About = () => {
                 <h3 className="text-xl font-semibold text-gray-900">
                   Arlignton Family Office
                 </h3>
-                <p className="mb-1">Application Developer</p>
+                <p className="mb-1">💻 Application Developer</p>
+                <div className="block mb-2 text-sm font-normal leading-none">
+                  📍 Birmingham, AL
+                </div>
                 <time className="block mb-2 text-sm font-normal leading-none text-gray-500">
-                  August 2021 - August 2023
+                  🕛 August 2021 - August 2023
                 </time>
                 <div className="mb-4 pl-3 md:pl-8 text-base font-normal text-gray-500">
                   <ol className="list-disc">
@@ -104,6 +110,9 @@ const About = () => {
                     Mississippi State University{" "}
                   </h3>
                   <p className="mb-1">Bachelor of Science in Biochemistry</p>
+                  <div className="block mb-2 text-sm font-normal leading-none">
+                    Starkville, MS
+                  </div>
                   <time className="block mb-2 text-sm font-normal leading-none text-gray-500">
                     August 2020
                   </time>
