@@ -12,7 +12,7 @@ const poppins = Poppins({
 });
 
 export const metadata: Metadata = {
-  title: "CV Portfolio",
+  title: "Carlos Villanueva | Software Engineer",
   description: "Carlos Villanueva's portfolio",
 };
 
