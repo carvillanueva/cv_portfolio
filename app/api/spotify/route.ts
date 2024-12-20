@@ -37,7 +37,7 @@
 //   return tokenResponse.access_token;
 // };
 
-// export const GET = async (): Promise<Response> => {
+export const GET = async (): Promise<Response> => {
 //   try {
 //     const token = await getAccessToken(process.env.SPOTIFY_REFRESH_TOKEN);
 //     const response = await fetch(
@@ -96,6 +96,5 @@
 //   } catch (error) {
 //     const message = parseError(error);
 
-//     return new Response(message, { status: 500 });
-//   }
-// };
+    return new Response(undefined, { status: 200 });
+};
