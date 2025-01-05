@@ -20,7 +20,7 @@ const Resume = () => {
             experience, education and skills.
           </p>
           <a
-            href="/your-resume.pdf"
+            href="/assets/CV_Resume.pdf"
             download
             className="inline-flex font-medium items-center"
           >

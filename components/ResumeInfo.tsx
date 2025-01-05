@@ -73,25 +73,21 @@ const About = () => {
                 <div className="mb-4 pl-3 md:pl-8 text-base font-normal text-gray-500">
                   <ol className="list-disc">
                     <li>
-                      Proficient in front-end JavaScript frameworks such as
-                      Angular, as well as code versioning technologies like Git
-                      and REST API design principles.
+                      Designed, developed, and maintained Angular front-end and .NET Core back-end applications, leveraging
+                      TypeScript, C# and REST API design principles to deliver private client platforms, an internal survey
+                      management system, and a fully revamped company website
                     </li>
                     <li>
-                      Experience designing, developing, testing, and maintaining
-                      application code to meet business requirements using
-                      technologies including HTML, CSS, JavaScript, Angular,
-                      .NET Core, C#, Azure, SQL, and CosmosDB.
+                      Developed scalable systems and workflows, integrating with FIS and other third-party financial platforms to
+                      enhance internal and client-facing operations
                     </li>
                     <li>
-                      Strong ability to analyse and resolve technical and
-                      application problems, as well as research and adapt to new
-                      languages, methodologies, and platforms as needed.
+                      Delivered client-facing applications used by hundreds of users while ensuring high-quality internal tools, leveraging
+                      SQL, CosmosDB, and MS Azure for data management and application hosting
                     </li>
                     <li>
-                      Demonstrated understanding of software development
-                      principles and ability to adhere to high- quality
-                      development practices while delivering solutions promptly.
+                      Applied strong problem-solving skills to analyze and resolve technical issues while adhering to best practices in
+                      version control with Git and agile methodologies
                     </li>
                   </ol>
                 </div>

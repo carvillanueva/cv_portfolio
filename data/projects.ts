@@ -3,7 +3,7 @@ export const projects = [
     title: "Wedding Website",
     description: "Designed and hosted personal wedding website. Site contains multi page layout with RSVP form, photo gallery, and event details.",
     projectURL: "https://www.sydneyandcarlos.com",
-    ghURL: "https://www.google.com",
+    ghURL: null,
     projectTech: ["Wordpress", "Elementor", "Google Analytics"],
     projectImg: "/assets/sydandcar.png",
   },
@@ -14,6 +14,14 @@ export const projects = [
     ghURL: "https://github.com/carvillanueva/beautylashesbygabby",
     projectTech: ["Angular", "Boostrap", "JavaScript", "TypeScript", "Google Analytics"],
     projectImg: "/assets/beautylashes.png",
+  },
+  {
+    title: "Python Web Scraper",
+    description: "Created a Python web scraper to extract content data from a website and have chatbot to answer questions regarding the content.",
+    projectURL: null,
+    ghURL: "https://github.com/carvillanueva/web_scrapper",
+    projectTech: ["Python", "Selenium", "Langchain-ollama"],
+    projectImg: null,
   },
   {
     title: "CV Portfolio Site",

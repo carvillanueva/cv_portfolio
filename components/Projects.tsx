@@ -26,8 +26,8 @@ const Projects = () => {
             title={project.title}
             description={project.description}
             projectImg={project.projectImg}
-            projectURL={project.projectURL}
-            ghURL={project.ghURL}
+            projectURL={project.projectURL || ''}
+            ghURL={project.ghURL || ''}
             projectTech={project.projectTech}
           />
         ))}
